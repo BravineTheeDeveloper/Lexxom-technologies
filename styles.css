@@ -33,6 +33,7 @@
     --blue-crayola: hsla(219, 72%, 56%, 1);
     --black-coral: hsla(220, 12%, 43%, 1);
 
+
     /* Typography */
 
     --ff-manrope: 'Manrope', sans-serif;
@@ -47,6 +48,10 @@
     --fs-8: 1.4rem;
 
     --fw-700: 700;
+
+
+    /* Spacing */
+    --section-padding: 90px;
 }
 
 
