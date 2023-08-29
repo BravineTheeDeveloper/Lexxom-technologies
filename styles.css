@@ -187,9 +187,49 @@ address {
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
+.navbar,
+.overlay,
+.header,
+.btn {
+    display: none;
+}
 
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-block: 20px;
+    box-shadow: var(--shadow-1)
+}
 
+.header.active {
+    background-color: var(--white);
+    position: fixed;
+    animation: slideIn 0.5s ease forwards;
+}
 
+@keyframes slideIn {
+    0% { transform: translateY(-100%);}
+    100% { transform: translateY(0);}
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.header.active .logo-light,
+.header.active .logo-dark {
+    display: none;
+}
+
+.header .logo-light,
+.header.active .logo-dark {
+    display: block;
+}
 
 
 /*-----------------------------------*\
