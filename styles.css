@@ -164,9 +164,24 @@ address {
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
+.container {
+    padding-inline: 15px;
+}
 
+.social-list {
+    display: flex !important;
+    align-items: center;
+    gap: 12px;
+}
 
+.social-link {
+    font-size: 2rem;
+    transition: var(--transition-1);
+}
 
+.social-link:is(:hover, :focus-visible) {
+    transform: translateY(-3px);
+}
 
 
 /*-----------------------------------*\
