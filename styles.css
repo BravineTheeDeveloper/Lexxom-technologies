@@ -796,6 +796,13 @@ body.nav-active {
     border: none;
 }
 
+.cta .container.end {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
 
 
 
