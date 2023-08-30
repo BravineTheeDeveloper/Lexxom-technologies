@@ -304,6 +304,7 @@ body.nav-active {
     top: 0;
     left: 0;
     width: 100%;
+    height: 20vh;
     padding-block: 20px;
     box-shadow: var(--shadow-1);
     z-index: 4;
@@ -337,6 +338,11 @@ body.nav-active {
     display: block;
 }
 
+.header.active .container .logo {
+    object-fit: contain;
+    padding: 25px;
+}
+
 .nav-open-btn {
     font-size: 3.5rem;
     color: var(--white);
@@ -344,6 +350,10 @@ body.nav-active {
 
 .header.active .nav-open-btn {
     color: var(--charcoal);
+}
+
+.header.active .navbar .navbar-top .logo {
+   margin-left: 0.5px;
 }
 
 .navbar {
@@ -359,6 +369,7 @@ body.nav-active {
     padding-block-end: 40px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     gap: 30px;
     z-index: 2;
     visibility: hidden;
