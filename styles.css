@@ -609,6 +609,10 @@ body.nav-active {
     opacity: 0.9;
 }
 
+.card-text {
+    font-size: 13px;
+}
+
 
 
 
