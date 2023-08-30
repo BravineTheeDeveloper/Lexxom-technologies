@@ -460,7 +460,7 @@ body.nav-active {
 }
 
 .hero-text {
-    font-size: var(--fs-5);
+    font-size: var(--fs-4);
     color: var(--white);
     margin-block: 24px 36px;
 }
