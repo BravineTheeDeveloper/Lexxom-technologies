@@ -562,6 +562,9 @@ body.nav-active {
 
 .service {
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .service .section-title {
@@ -963,9 +966,17 @@ body.nav-active {
 
 
 
+
     /**
         * HEADER
         */
+
+    .navbar {
+        margin-top: -20px;
+    }
+    .header {
+        margin-top: -20px;
+    }
 
     .header .btn {
         display: block;
@@ -1050,6 +1061,12 @@ body.nav-active {
     /**
         * HEADER
         */
+    .navbar {
+        margin-top: -20px;
+    }
+    .header {
+        margin-top: -25px;
+    }
 
     .nav-open-btn,
     .navbar > *:not(.navbar-list),
