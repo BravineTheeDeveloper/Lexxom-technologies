@@ -1,11 +1,11 @@
 /*-----------------------------------*\
-  #main.css
+    #main.css
 \*-----------------------------------*/
 
 
 
 /*-----------------------------------*\
-  #CUSTOM PROPERTY
+    #CUSTOM PROPERTY
 \*-----------------------------------*/
 
 :root {
@@ -150,6 +150,7 @@ body {
     color: var(--black-coral);
     font-size: 1.6rem;
     line-height: 1.7;
+    overflow-x: hidden;
 }
 
 body.nav-active {
@@ -973,6 +974,25 @@ body.nav-active {
 /**
 * responsive for large than 575px screen
 */
+@media (max-width: 385px) {
+    body {
+        overflow-x: hidden;
+    }
+    .container {
+        max-width: 100%;
+        padding-inline: 10px;
+    }
+
+    /* .hero-content h1 {
+        font-size: 47px;
+    } */
+
+    .hero-content .h1 {
+        font-size: 45px;
+    }
+}
+
+
 
 @media (min-width: 575px) {
 
@@ -981,8 +1001,7 @@ body.nav-active {
         */
 
     .container {
-        max-width: 540px;
-        width: 100%;
+        max-width: 100%;
         margin-inline: auto;
     }
 
