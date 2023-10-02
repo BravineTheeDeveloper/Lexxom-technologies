@@ -12,6 +12,20 @@ const addEventOnElements = function (elements, eventType, callback) {
   }
 }
 
+/**
+ * MULTIPLE TEXT
+ */
+
+var typed = new Typed ((".multiple-text"),
+{
+    strings: ["Crafting project specific solutions with expertise."],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+})
+
+
 
 
 /**
