@@ -492,9 +492,9 @@ body.nav-active {
     gap: 70px;
 }
 
-.hero-title h1 {
+.hero-content h1 {
     font-weight: 800;
-    font-size: 100px;
+    font-size: 60px;
 }
 
 .hero-title {
