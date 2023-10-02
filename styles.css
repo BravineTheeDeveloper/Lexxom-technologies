@@ -331,6 +331,22 @@ body.nav-active {
     gap: 16px;
 }
 
+.header .container .logo {
+    animation: slideRight 1s ease forwards;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
 .header.active .logo-light,
 .header .logo-dark {
     display: none;
@@ -356,7 +372,7 @@ body.nav-active {
 }
 
 .header.active .navbar .navbar-top .logo {
-   margin-left: 0.5px;
+    margin-left: 0.5px;
 }
 
 .navbar {
@@ -377,6 +393,20 @@ body.nav-active {
     z-index: 2;
     visibility: hidden;
     transition: var(--transition-3);
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 
 .navbar.active {
