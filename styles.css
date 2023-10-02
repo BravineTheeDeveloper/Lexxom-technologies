@@ -393,8 +393,6 @@ body.nav-active {
     z-index: 2;
     visibility: hidden;
     transition: var(--transition-3);
-    animation: slideTop .5s ease forwards;
-    animation-delay: calc(.2s * var(--i));
 }
 
 @keyframes slideTop {
@@ -521,7 +519,7 @@ body.nav-active {
     margin-block: 24px 36px;
     opacity: 0;
     animation: slideRight 1s ease forwards;
-    animation-delay: 1s ;
+    animation-delay: 1s;
 }
 
 .btn-wrapper {
