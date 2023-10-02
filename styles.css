@@ -497,6 +497,7 @@ body.nav-active {
 
 .hero-title {
     color: var(--white);
+    opacity: 0;
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s ;
 }
