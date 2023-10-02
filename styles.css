@@ -519,6 +519,9 @@ body.nav-active {
     font-size: var(--fs-4);
     color: var(--white);
     margin-block: 24px 36px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s ;
 }
 
 .btn-wrapper {
