@@ -492,8 +492,27 @@ body.nav-active {
     gap: 70px;
 }
 
+.hero-title h1 {
+    font-weight: 800;
+    font-size: 100px;
+}
+
 .hero-title {
     color: var(--white);
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s ;
+}
+
+@keyframes slideBottom {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 
 .hero-text {
